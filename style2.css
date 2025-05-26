@@ -1,0 +1,72 @@
+body {
+/*     background-image: url(img/DVD.jpg);
+ */    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
+
+  #hatter {
+    background-image: linear-gradient(red, rgb(231, 231, 240) 30%, rgb(40, 167, 70) 70%);
+    width: 30%;
+    float: right;
+}
+
+  #radialis {
+    background-image: radial-gradient(circle,blue, yellow, green);
+    width: 30%;
+    float: right;
+    
+}
+
+header h1 {
+    visibility: visible;
+}
+
+#hatter2 {
+width: 30%;
+clear: both;
+
+}
+
+a {
+    display: block;
+}
+
+
+  header {
+    background-image: url(img/DVD.jpg);
+    background-size: cover;
+    height: 150px;
+    background-position: center;
+  }
+
+  #szovegarnyek {
+
+    text-shadow: 5px 4px 4px green, 7px 7px 4px yellow;
+  }
+
+  button {
+    color: chartreuse;
+    background-color: rgb(37, 37, 127);
+    padding: 15px;
+    margin: 10px;
+    width: 120px;
+    border: solid 2px yellow;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgb(90, 218, 171);
+  }
+
+  /* Szöveg-árnyék 
+  text-shadow: vízszintes eltolás - függőleges eltolás - életlenítés - szín
+
+  Doboz árnyék
+  box-shadow:  vízszintes eltolás - függőleges eltolás - életlenítés -
+    szórás - szín -(inset - belső árnyék)
+  */
+
+
+  /* 
+  Színátmenetek: lineáris és radiális
+
+  linear-gradient
+  radial-gradient
+  */

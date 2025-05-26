@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Egyszerű űrlap</title>
+        <link rel="stylesheet" href="urlap.css">
+        
+    </head>
+    <body>
+        <div class="keret">
+            <form action="urlap.html">
+                <h1>Egyszerű űrlap</h1>
+
+                <div id="bal">
+                    <label for="nev">Név <sup>*</sup> : </label>
+                    <label for="mail">E-mail:</label>
+                    <label for="pass">Jelszó<sup>*</sup>:</label>
+
+                </div>
+
+                <div id="jobb">
+                    <input type="text" name="nev" id="nev" required>
+                    <input type="email" name="mail" id="mail">
+                    <input type="password" name="pass" id="pass" required>
+
+                </div>
+
+
+
+              
+                <div id="folyt">
+                    <input type="checkbox" name="hir" id="hir">
+                    <label for="hir">Szeretnék hírlevelet kapni...</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="szabaly" id="szabaly" checked>
+                    <label for="szabaly">Elfogadom a feltételeket.</label>
+                </div>
+                <div>
+                    <p>Szeretnél-e reklámleveleket is kapni?</p>
+
+                    <input type="radio" name="valaszt" id="igen" title="kattints">
+                    <label for="igen">Igen</label><br>
+                    <input type="radio" name="valaszt" id="nem" checked>
+                    <label for="nem">Nem</label>
+                </div>
+                <!-- <input type="color" name="szin" id="szin">
+                <input type="date" name="datum" id="datum">
+                <input type="datetime-local" name="dtime" id="dtime">
+                <input type="file" name="talloz" id="talloz">
+                <input type="number" name="szam" id="szam">
+                <input type="range" name="rr" id="rr"> -->
+                <div>
+                    <p>Megjegyzés:</p>
+                    <textarea name="uzenet" id="uzenet" cols="35" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Küldés">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </body>
+</html>

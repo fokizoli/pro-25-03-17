@@ -1,0 +1,212 @@
+/* CSS elhelyezése:
+
+1. Külső stíluslap - external 
+2. internal: html head-ben style tagek között,
+3. inline: nyitótag style attribútumban
+
+
+CSS szabály szerkezete: 
+kijelölő { kulcs: érték }
+*/
+/* Elem kijelölő */
+html {
+    background-color: #ddeba8;
+    
+}
+
+
+
+/* Csoport kijelölő */
+h5, h6, h4 {
+    color: blueviolet;
+}
+
+/* Azonosító kijelölők: ID */
+#oldalhivatkozasok {
+    margin: 25px;
+    background-color: #fff;
+    padding: 30px 20px 15px 25px;
+    border: solid 10px red;
+}
+
+/* Származtatott kijelölők: szóköz */
+#oldalhivatkozasok a {
+    font-size: larger;
+   
+}
+
+/* osztály kijelölő */
+.sarga {
+    background-color: rgba(37, 37, 27, 0.753);
+    font-weight: 400;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+/* Betűtípusok */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+/* Színek definiálása 
+1. névvel
+2. RGB (red, green, blue) színmód: 
+    hexa #ff12ab
+    rövid hexa #f1a
+    százalékos rgb (100%, 50%, 15%)
+    decimális rgb (0, 255, 0)
+3. RGBA     százalékos rgb (100%, 50%, 15%, 0.7)
+4. HSL
+
+*/
+
+h1 {
+    color: rgba(136, 100, 129, 0.851);
+}
+
+a {
+    margin: 30px;
+}
+
+/* Méretek */
+#oldalhivatkozasok {
+    min-width: 350px;
+    max-width: 500px;
+    height: auto;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+#szoveg {
+  text-indent: 25px;
+  text-align: left;
+  text-align-last: right;
+  text-decoration: overline;
+  text-transform: inherit;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+.fira-sans-thin {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
