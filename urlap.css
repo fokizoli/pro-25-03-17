@@ -1,0 +1,76 @@
+body {
+    background-color: #d7d7d7;
+}
+
+.keret {
+    width: 350px;
+    margin: 10px auto;
+    background-color: #f7f2f2;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label, input {
+    margin-bottom: 10px;
+    
+}
+
+/* #nev {
+    margin-left: 9px;
+}
+
+#mail {
+    margin-left: 7px;
+} */
+
+input[type=text] {
+    background-color: #d2e9e2;
+    color: rgb(13, 13, 121);
+    box-shadow: 5px 5px 5px blue;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #7d95f6;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px blue;
+    color: rgb(236, 28, 28);
+    font-size: large;
+    margin-top: 10px;
+}
+
+input[type=reset]{
+    background-color: #ec3939;
+    color: #1e3fc4;
+}
+
+
+textarea {
+    background-color: #b7e2e2;
+    text-shadow: 3px 3px 2px blue;
+}
+
+#bal label, #jobb label {
+    display: block;
+}
+#bal, #jobb {
+    width: 50%;
+}
+
+#jobb {
+    float: right;
+}
+
+#bal {
+    float: left ;
+}
+
+
+#folyt {
+    clear: both;
+}
