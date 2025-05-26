@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML alapok</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+IE+Guides&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+
+    <!-- internal stílus -->
+    <style>
+        
+        p {
+            color: brown;
+
+        }     
+
+    </style>
+</head>
+<body>
+
+        <!-- Szakaszok  - DIV -->
+         <div id="oldalhivatkozasok"> 
+            <p style="background-color:rgb(137, 136, 157); color:yellow">Oldalon belüli navigáció</p>
+            <a href="#audio" style="background-color: blue;">Audió </a><br>
+            <a href="#tablazatok">Táblázatok </a><br>
+            <a href="#listak">Listák </a><br>
+            <a href="#cimsorok">Címsorok</a>
+
+         </div>
+         <hr>
+        <!-- hivatkozások -->
+        <!-- külső hivatkozás -->
+         <a href="https://www.prooktatas.hu/" target="_blank">https://www.prooktatas.hu/</a>
+
+         <br>
+        <!-- Belső hivatkozás  (ALT + SHIFT + A) - megjegyzés -->
+        <a href="masodik.html" target="_blank">Második oldalra</a>
+
+        <br>
+
+        <!-- Oldalon belüli hivatkozás -->
+        <p>Oldalon belüli navigáció</p>
+        <a href="#audio">Audió </a>
+        <a href="#tablazatok">Táblázatok </a>
+        <a href="#listak">Listák </a>
+        <a href="#cimsorok">Címsorok</a>
+
+        <!-- Hivatkozás képpel -->
+         <a href="masodik.html"><img src="img/imagesfree másolata.png" alt=""></a>
+
+         <!-- Email hivatkozás -->
+          <a href="mailto:valaki@valami.hu">valaki@valami.hu</a>
+
+          <!-- Telefonos hivatkozás -->
+           <a href="tel:+3670123456789">+3670123456789</a>
+
+
+       <!-- Tartalmi/formázási html elemek -->
+        <hr>
+       <p>
+        Lorem ipsum <strong>dolor</strong> , sit <em>amet</em>  consectetur 
+        adipisicing <mark>elit.</mark>  At optio <small>laudantium</small>  rem. Mollitia quidem minima 
+        <ins>expedita</ins>  atque <del>illum</del>  cupiditate facere, sint tempore earum 
+        <b>doloremque</b> ! <u>Repellendus</u>  eligendi <i>sint</i>  impedit error! Quis.
+    </p>
+    <p class="sarga">
+        A ház területe 100 m<sup>2</sup>. 
+    </p>
+    <p class="sarga">
+        A víz vegyjele: H<sub>2</sub>O 
+    </p>
+
+<hr>
+    <!-- Képek -->
+     <img src="img/DVD.jpg" alt="DVD képe" title="DVD title" width="300px" >
+     <img src="img/5deb404dc6df9c08dd58c980-2-large.jpg" alt="DVD képe" title="DVD title" width="300px" >
+
+     <!-- Videó -->
+     <video src="video/tesztelés01.mp4" width="550px" controls 
+     poster="img/5deb404dc6df9c08dd58c980-2-large.jpg"></video>
+    
+     <!-- Audió -->
+     <audio src="" controls id="audio"></audio>
+
+ 
+
+
+
+
+
+
+
+
+
+        <hr>
+    <!-- táblázatok -->
+     <table border="1" id="tablazatok">
+        <tr>
+            <th colspan="2">1 sor 1 cella</th>
+            <!-- <td>1 sor 2 cella</td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">2 sor 1 cella</td>
+            <td>2 sor 2 cella</td>
+        </tr>
+        <tr>
+            <td>3 sor 1 cella</td>
+            <!-- <td>3 sor 2 cella</td> -->
+        </tr>
+     </table>
+
+    <!-- meghatározás - definíciós lista -->
+     <dl id="listak">
+        <dt>HTML</dt>
+        <dd>leíró nyelv</dd>
+        <dt>CSS</dt>
+        <dd>stíluslap</dd>
+        <dt>Javascript</dt>
+        <dd>programnyelv</dd>
+     </dl>
+
+    <!-- Lista feladat -->
+     <ol>
+        <li>kenyér
+            <ol>
+                <li>fehér kenyér</li>
+                <li>barna kenyér</li>
+            </ol>
+        </li>
+        <li>tej
+            <ol>
+                <li>zsíros tej</li>
+                <li>zsírszegény tej</li>
+            </ol>
+        </li>
+        <li>vaj 
+            <ol>
+                <li>sózott vaj</li>
+                <li>nem sózott vaj</li>
+                <li>margarin</li>
+            </ol>
+        </li>
+     </ol>
+
+     <ul>
+        <li>kenyér
+            <ul>
+                <li>fehér kenyér</li>
+                <li>barna kenyér</li>
+            </ul>
+        </li>
+        <li>tej
+            <ul>
+                <li>zsíros tej</li>
+                <li>zsírszegény tej</li>
+            </ul>
+        </li>
+        <li>vaj 
+            <ol>
+                <li>sózott vaj</li>
+                <li>nem sózott vaj</li>
+                <li>margarin</li>
+            </ol>
+        </li>
+     </ul>
+
+
+    <!-- Listák -->
+     <!-- Számozott lista -->
+      <ol>
+        <li>egy</li>
+        <li>kettő</li>
+        <li>három</li>
+      </ol>
+      <!-- Számozatlan lista -->
+       <ul>
+        <li>első</li>
+        <li>második</li>
+        <li>harmadik
+            <ol>
+                <li>beágyazott1</li>
+                <li>beágyazott2
+                    <ul>
+                        <li>egy</li>
+                        <li>kettő</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>negyedik</li>
+       </ul>
+
+
+
+    <!-- Címsorok --> 
+    <h1 id="cimsorok">Első szintű címsor</h1>
+    <p>Ide tudunk tetszőleges szöveget írni.</p>
+    <h2>Második</h2>
+    <p id="szoveg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor <br>
+         temporibus iure tempora velit mollitia similique quisquam rerum 
+         libero excepturi aspernatur recusandae, reprehenderit, placeat 
+         cupiditate sint incidunt ullam error labore minus?
+    </p>
+    <hr>
+    <h3>Harmadik</h3>
+    <h4>Negyedik</h4>
+    <h5>Ötödik</h5>
+    <h6>Hatodik</h6>
+</body>
+</html>
+
